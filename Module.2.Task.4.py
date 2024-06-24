@@ -22,3 +22,5 @@ print(
     if student_name in winners_list
     else "Student is not winner"
 )
+
+print(245)
