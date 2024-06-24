@@ -1,0 +1,15 @@
+# Отримати числоб цифри якого йдуть у зворотньому порядку
+
+num_string = "12345"
+
+"12"
+
+
+def get_reverse(num):
+    print(num)
+    if len(num) < 2:
+        return num
+    
+    return num[-1] + get_reverse(num[:-1])
+
+print(get_reverse(num_string))
