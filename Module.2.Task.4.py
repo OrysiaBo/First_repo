@@ -23,4 +23,3 @@ print(
     else "Student is not winner"
 )
 
-print(245)
