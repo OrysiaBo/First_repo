@@ -1,4 +1,4 @@
-# Розпарсити лані користувача із веб-форми. Інкапсулювати дані у dataclass-і.
+# Розпарсити dані користувача із веб-форми. Інкапсулювати дані у dataclass-і.
 import string
 from dataclasses import dataclass
 
